@@ -1,5 +1,5 @@
 {
-  "name": "node-whenAllHaveEmitted",
+  "name": "whenAllHaveEmitted",
   "description": "Function that call the callback only when all the events are emitted",
   "version": "0.0.1",
   "repository": {
