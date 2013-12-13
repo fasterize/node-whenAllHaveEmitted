@@ -1,0 +1,21 @@
+{
+  "name": "node-whenAllHaveEmitted",
+  "description": "Function that call the callback only when all the events are emitted",
+  "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fasterize/node-whenAllHaveEmitted"
+  },
+  "dependencies": {
+    "baconjs": "0.4.1"
+  },
+  "devDependencies": {
+    "mocha": "1.7.x",
+    "sinon": "1.5.x",
+    "should": "1.2.x"
+  },
+  "main": "./lib/index.js",
+  "scripts": {
+    "test": "./node_modules/mocha/bin/mocha test/test.js"
+  }
+}
